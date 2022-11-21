@@ -41,9 +41,11 @@ function findFirstSongUnderThreeMinutes(songs) {
  */
 function findFirstTitleTrack(songs) {
   //create a variable
-  const nameName = songs.find //within songs, we want to find
-  (element =>   //an object in which
-    element.title === element.album) //the title of the song is the title of the album
+  //within the given songs array, we want to FIND
+  //an object in which
+  //the title of the song is the title of the album
+
+  const nameName = songs.find (element => element.title === element.album) 
 
   return nameName
 }
